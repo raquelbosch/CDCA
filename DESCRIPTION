@@ -1,0 +1,20 @@
+Package: CDCA
+Type: Package
+Title: Categorical Data Classification Analysis
+Version: 0.1
+Date: "`r Sys.Date()`"
+Authors@R: person("Raquel","Bosch-Romeu",email="rboschromeu@gmail.com",
+                  role = c("aut","cre"))
+Description: It performs the procedure for constructing a classification map from categorical data proposed in the article "A novel approach to learning through categorical variables applicable to the classification of solitary pulmonary nodule malignancy".
+Imports:
+    ExPosition,
+    dendextend,
+    ks,
+    stats
+Suggests: knitr,
+          rmarkdown
+VignetteBuilder: knitr  
+License: GPL-2
+LazyLoad: yes
+Encoding: UTF-8
+RoxygenNote: 7.2.3
